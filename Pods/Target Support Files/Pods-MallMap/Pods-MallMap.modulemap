@@ -1,0 +1,6 @@
+framework module Pods_MallMap {
+  umbrella header "Pods-MallMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
