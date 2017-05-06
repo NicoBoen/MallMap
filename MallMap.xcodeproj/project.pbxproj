@@ -17,6 +17,7 @@
 		6A6E001D1EBD623100B41194 /* Mall Puri Indah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E001A1EBD623100B41194 /* Mall Puri Indah.jpeg */; };
 		6A6E001E1EBD623100B41194 /* Mall Taman Anggrek.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E001B1EBD623100B41194 /* Mall Taman Anggrek.jpeg */; };
 		6A6E00201EBD627900B41194 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E001F1EBD627900B41194 /* TableViewController.swift */; };
+		6A6E00221EBD819100B41194 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E00211EBD819100B41194 /* MapKit.framework */; };
 		7E23CB40B77B004C22CEB9EF /* Pods_MallMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E411F8ADFC27B93101ED9DA /* Pods_MallMap.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		6A6E001A1EBD623100B41194 /* Mall Puri Indah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mall Puri Indah.jpeg"; path = "../../../Downloads/Mall Puri Indah.jpeg"; sourceTree = "<group>"; };
 		6A6E001B1EBD623100B41194 /* Mall Taman Anggrek.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mall Taman Anggrek.jpeg"; path = "../../../Downloads/Mall Taman Anggrek.jpeg"; sourceTree = "<group>"; };
 		6A6E001F1EBD627900B41194 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6A6E00211EBD819100B41194 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		814F37DA36967F5033C62E72 /* Pods-MallMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-MallMap/Pods-MallMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6E00221EBD819100B41194 /* MapKit.framework in Frameworks */,
 				7E23CB40B77B004C22CEB9EF /* Pods_MallMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +65,7 @@
 		3C09F49B48B4101E8CCFE621 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A6E00211EBD819100B41194 /* MapKit.framework */,
 				1E411F8ADFC27B93101ED9DA /* Pods_MallMap.framework */,
 			);
 			name = Frameworks;
