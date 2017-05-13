@@ -22,6 +22,12 @@ class ViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     @IBOutlet weak var mapHaha: MKMapView!
+    @IBOutlet weak var tempLabel: UILabel!
+    
+    @IBOutlet weak var buttonLeft: NSLayoutConstraint!
+    
+    
+    var weather = DataModel()
         
     
 
@@ -30,7 +36,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let annotation = MKPointAnnotation()
+        myImage.alpha = 0
+        buttonLeft.constant = -120
+        
+        
+        
+        
+        _ = MKPointAnnotation()
         
         
         let fileName = mall[myIndex] + ".jpeg"
@@ -48,13 +60,15 @@ class ViewController: UIViewController {
         //let coord = mallCoords[myIndex]
         
         
+        let kota = cities[myIndex]
+        weather.downloadData(kota: kota){
+            self.updateUI()
+        }
         
-
-        
-        
-        
-        
-        
+    }
+    
+    func updateUI(){
+        tempLabel.text = "\(weather.temp)"
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,15 +76,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        
+        // image animation
+        UIView.animate(withDuration: 3, animations: {
+            self.myImage.alpha = 1
+        })
+        
+        //layout animation
+        self.buttonLeft.constant = 0
+        UIView.animate(withDuration: 3, animations: {
+            self.view.layoutIfNeeded()
+        })
+        
+        
     }
-    */
 
+    
+    
 }
