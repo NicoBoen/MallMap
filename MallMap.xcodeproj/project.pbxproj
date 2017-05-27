@@ -14,6 +14,7 @@
 		6A5B382F1EB440FF004413D2 /* MallMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B382D1EB440FF004413D2 /* MallMap.xcdatamodeld */; };
 		6A5B38311EB440FF004413D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B38301EB440FF004413D2 /* Assets.xcassets */; };
 		6A5B38341EB440FF004413D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B38321EB440FF004413D2 /* LaunchScreen.storyboard */; };
+		6A5BF2EC1ED91C580064FBF5 /* PassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BF2EB1ED91C580064FBF5 /* PassViewController.swift */; };
 		6A6E001C1EBD623100B41194 /* Mall SMS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E00191EBD623100B41194 /* Mall SMS.jpeg */; };
 		6A6E001D1EBD623100B41194 /* Mall Puri Indah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E001A1EBD623100B41194 /* Mall Puri Indah.jpeg */; };
 		6A6E001E1EBD623100B41194 /* Mall Taman Anggrek.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E001B1EBD623100B41194 /* Mall Taman Anggrek.jpeg */; };
@@ -33,6 +34,7 @@
 		6A5B38301EB440FF004413D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A5B38331EB440FF004413D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A5B38351EB440FF004413D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5BF2EB1ED91C580064FBF5 /* PassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassViewController.swift; sourceTree = "<group>"; };
 		6A6E00171EBD614D00B41194 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A6E00191EBD623100B41194 /* Mall SMS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mall SMS.jpeg"; path = "../../../Downloads/Mall SMS.jpeg"; sourceTree = "<group>"; };
 		6A6E001A1EBD623100B41194 /* Mall Puri Indah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mall Puri Indah.jpeg"; path = "../../../Downloads/Mall Puri Indah.jpeg"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				6A5B38261EB440FF004413D2 /* AppDelegate.swift */,
 				6A5B382A1EB440FF004413D2 /* Main.storyboard */,
+				6A5BF2EB1ED91C580064FBF5 /* PassViewController.swift */,
 				6A5481811EC6AB0100F754D1 /* DataModel.swift */,
 				6A6E001F1EBD627900B41194 /* TableViewController.swift */,
 				6A6E00171EBD614D00B41194 /* ViewController.swift */,
@@ -239,6 +242,7 @@
 				6A5481851EC6B17B00F754D1 /* ViewController.swift in Sources */,
 				6A5481841EC6B16700F754D1 /* DataModel.swift in Sources */,
 				6A5B382F1EB440FF004413D2 /* MallMap.xcdatamodeld in Sources */,
+				6A5BF2EC1ED91C580064FBF5 /* PassViewController.swift in Sources */,
 				6A5B38271EB440FF004413D2 /* AppDelegate.swift in Sources */,
 				6A6E00201EBD627900B41194 /* TableViewController.swift in Sources */,
 			);
