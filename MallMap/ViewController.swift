@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonLeft: NSLayoutConstraint!
     
     
+    
     var weather = DataModel()
         
     

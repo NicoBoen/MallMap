@@ -13,6 +13,7 @@ class PassViewController: UIViewController {
     
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var inputText: UITextField!
+    @IBAction func unwindToVC1(segue:UIStoryboardSegue) { }
     override func viewDidLoad() {
         super.viewDidLoad()
         

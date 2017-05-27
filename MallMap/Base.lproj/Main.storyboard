@@ -211,6 +211,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHZ-R4-wau">
+                                <rect key="frame" x="279" y="630" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <segue destination="cPB-CX-1rQ" kind="unwind" unwindAction="unwindToVC1WithSegue:" id="GuH-Rz-mg1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93249096599968107" blue="0.58287437575089418" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -241,6 +249,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHz-oQ-5v9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="cPB-CX-1rQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-503.19999999999999" y="-389.05547226386807"/>
         </scene>
